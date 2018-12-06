@@ -66,11 +66,6 @@ func main() {
 	}
 
 	sequences := strings.Split(string(inpBuff), "\r")
-
-	// sequences = []string{"+1", "+1", "+1"}
-	// sequences = []string{"+1", "+1", "-2"}
-	// sequences = []string{"-1", "-2", "-3"}
-
 	globalSequence := NewSequence("+0")
 
 	for _, seq := range sequences {
